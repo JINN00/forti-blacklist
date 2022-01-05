@@ -1,0 +1,18 @@
+{
+        "fg-machine1" : {
+                        "machine_address": "",
+                        "api-key": "",
+                        "vdom": [ "", "", "", "" ]
+        },
+        "fg-machine2" : {
+                        "machine_address": "",
+                        "api-key": "",
+                        "vdom": [ "" ]
+        },
+	"fg-machine3" : {
+			"machine_address": "",
+			"api-key": "",
+			"vdom": [ "", "" ]
+	}
+}
+
