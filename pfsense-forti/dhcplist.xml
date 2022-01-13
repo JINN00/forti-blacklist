@@ -1,0 +1,26 @@
+<data>
+<staticmap>
+        <mac>00:00:00:00:00:00</mac>
+        <cid></cid>
+        <ipaddr>192.168.1.1</ipaddr>
+        <hostname></hostname>
+		<descr>더미 description</descr>
+        <arp_table_static_entry></arp_table_static_entry>
+        <filename></filename>
+        <rootpath></rootpath>
+        <defaultleasetime></defaultleasetime>
+        <maxleasetime></maxleasetime>
+        <dnsserver></dnsserver>
+        <dnsserver></dnsserver>
+        <gateway></gateway>
+        <domain></domain>
+        <domainsearchlist></domainsearchlist>
+        <ddnsdomain></ddnsdomain>
+        <ddnsdomainprimary></ddnsdomainprimary>
+        <ddnsdomainkeyname></ddnsdomainkeyname>
+        <ddnsdomainkey></ddnsdomainkey>
+        <tftp></tftp>
+        <ldap></ldap>
+</staticmap>
+</data>
+
