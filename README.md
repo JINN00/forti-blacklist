@@ -5,7 +5,7 @@ Fortigate Management Tools made by me
 Php web that management fortigate's blacklist addrgrp
 specify machinename, IP, API key, vdom at machine-list.json
 
-# pfsense-forti(reserved address)
+# pfsense-forti
 Python scripts for migrating from pfsense to fortigate
 - dhcp static ip list
 - alias
