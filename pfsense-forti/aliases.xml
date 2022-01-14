@@ -1,0 +1,38 @@
+<aliases>
+	<alias>
+		<name>allow1</name>
+		<type>network</type>
+		<address>1.2.74.0/24 1.2.90.66/32 192.168.102.233/32 192.168.102.235/32 192.168.100.92/32 192.168.100.97/32 192.168.102.93/32 192.168.102.94/32 223.130.73.11/32</address>
+		<descr></descr>
+		<detail><![CDATA[Entry added Fri, 18 Sep 2020 15:53:38 +0900||Entry added Fri, 18 Sep 2020 16:16:30 +0900||dns||dns||dns||dns||vm||vm||Entry added Mon, 21 Sep 2020 10:01:56 +0900]]></detail>
+	</alias>
+	<alias>
+		<name>allow2</name>
+		<type>network</type>
+		<address>1.2.75.150/32 1.2.74.0/24 192.168.102.233/32 192.168.102.235/32 192.168.100.92/32 192.168.100.97/32</address>
+		<descr></descr>
+		<detail><![CDATA[vpn ip||Entry added Fri, 18 Sep 2020 15:54:13 +0900||dns||dns||dns||dns]]></detail>
+	</alias>
+	<alias>
+		<name>deny1</name>
+		<type>network</type>
+		<address>192.168.102.0/24 1.2.0.0/16</address>
+		<descr></descr>
+		<detail><![CDATA[더미||Entry added Fri, 18 Sep 2020 15:53:03 +0900]]></detail>
+	</alias>
+	<alias>
+		<name>group1</name>
+		<type>network</type>
+		<address>192.168.1.115/32 192.168.58.87/32</address>
+		<descr></descr>
+		<detail><![CDATA[테스트||삼삼삼]]></detail>
+	</alias>
+	<alias>
+		<name>group2</name>
+		<type>network</type>
+		<address>192.168.1.26/32 192.168.58.143/32 192.168.58.88/32 192.168.58.69/32 192.168.58.41/32</address>
+		<descr></descr>
+		<detail><![CDATA[일일일||이이이||삼삼삼||사사사||오오오]]></detail>
+	</alias>
+</aliases>
+

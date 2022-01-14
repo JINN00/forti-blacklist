@@ -1,0 +1,140 @@
+config firewall address
+    edit "1.2.74.0/24"
+        set type ipmask
+        set subnet 1.2.74.0/24
+        set comment Entry added Fri, 18 Sep 2020 15:53:38 +0900
+    next
+    edit "1.2.90.66/32"
+        set type ipmask
+        set subnet 1.2.90.66/32
+        set comment Entry added Fri, 18 Sep 2020 16:16:30 +0900
+    next
+    edit "192.168.102.233/32"
+        set type ipmask
+        set subnet 192.168.102.233/32
+        set comment dns
+    next
+    edit "192.168.102.235/32"
+        set type ipmask
+        set subnet 192.168.102.235/32
+        set comment dns
+    next
+    edit "192.168.100.92/32"
+        set type ipmask
+        set subnet 192.168.100.92/32
+        set comment dns
+    next
+    edit "192.168.100.97/32"
+        set type ipmask
+        set subnet 192.168.100.97/32
+        set comment dns
+    next
+    edit "192.168.102.93/32"
+        set type ipmask
+        set subnet 192.168.102.93/32
+        set comment vm
+    next
+    edit "192.168.102.94/32"
+        set type ipmask
+        set subnet 192.168.102.94/32
+        set comment vm
+    next
+    edit "223.130.73.11/32"
+        set type ipmask
+        set subnet 223.130.73.11/32
+        set comment Entry added Mon, 21 Sep 2020 10:01:56 +0900
+    next
+    edit "1.2.75.150/32"
+        set type ipmask
+        set subnet 1.2.75.150/32
+        set comment vpn ip
+    next
+    edit "1.2.74.0/24"
+        set type ipmask
+        set subnet 1.2.74.0/24
+        set comment Entry added Fri, 18 Sep 2020 15:54:13 +0900
+    next
+    edit "192.168.102.233/32"
+        set type ipmask
+        set subnet 192.168.102.233/32
+        set comment dns
+    next
+    edit "192.168.102.235/32"
+        set type ipmask
+        set subnet 192.168.102.235/32
+        set comment dns
+    next
+    edit "192.168.100.92/32"
+        set type ipmask
+        set subnet 192.168.100.92/32
+        set comment dns
+    next
+    edit "192.168.100.97/32"
+        set type ipmask
+        set subnet 192.168.100.97/32
+        set comment dns
+    next
+    edit "192.168.102.0/24"
+        set type ipmask
+        set subnet 192.168.102.0/24
+        set comment 더미
+    next
+    edit "1.2.0.0/16"
+        set type ipmask
+        set subnet 1.2.0.0/16
+        set comment Entry added Fri, 18 Sep 2020 15:53:03 +0900
+    next
+    edit "192.168.1.115/32"
+        set type ipmask
+        set subnet 192.168.1.115/32
+        set comment 테스트
+    next
+    edit "192.168.58.87/32"
+        set type ipmask
+        set subnet 192.168.58.87/32
+        set comment 삼삼삼
+    next
+    edit "192.168.1.26/32"
+        set type ipmask
+        set subnet 192.168.1.26/32
+        set comment 일일일
+    next
+    edit "192.168.58.143/32"
+        set type ipmask
+        set subnet 192.168.58.143/32
+        set comment 이이이
+    next
+    edit "192.168.58.88/32"
+        set type ipmask
+        set subnet 192.168.58.88/32
+        set comment 삼삼삼
+    next
+    edit "192.168.58.69/32"
+        set type ipmask
+        set subnet 192.168.58.69/32
+        set comment 사사사
+    next
+    edit "192.168.58.41/32"
+        set type ipmask
+        set subnet 192.168.58.41/32
+        set comment 오오오
+    next
+end
+
+config firewall addrgrp
+    edit "allow1"
+        set member "1.2.74.0/24" "1.2.90.66/32" "192.168.102.233/32" "192.168.102.235/32" "192.168.100.92/32" "192.168.100.97/32" "192.168.102.93/32" "192.168.102.94/32" "223.130.73.11/32"
+    next
+    edit "allow2"
+        set member "1.2.75.150/32" "1.2.74.0/24" "192.168.102.233/32" "192.168.102.235/32" "192.168.100.92/32" "192.168.100.97/32"
+    next
+    edit "deny1"
+        set member "192.168.102.0/24" "1.2.0.0/16"
+    next
+    edit "group1"
+        set member "192.168.1.115/32" "192.168.58.87/32"
+    next
+    edit "group2"
+        set member "192.168.1.26/32" "192.168.58.143/32" "192.168.58.88/32" "192.168.58.69/32" "192.168.58.41/32"
+    next
+end
