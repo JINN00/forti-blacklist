@@ -1,6 +1,9 @@
 # forti-tool
 Fortigate Management Tools made by me
 
+# addrmgmt
+Python scripts for add, delete address management 
+
 # blacklist
 Php web that management fortigate's blacklist addrgrp
 specify machinename, IP, API key, vdom at machine-list.json
